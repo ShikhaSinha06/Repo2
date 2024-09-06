@@ -11,8 +11,8 @@
       t.src=v;s=h.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       "https://static.awsacmsdk0903.testanactz.cbinternal.com/"+'sdk/capig-events.js');
-    cbq('init', "4115058174317094994");
-    cbq('loadConfig', "4115058174317094994");
+    cbq('init', "8169199660859977558");
+    cbq('loadConfig', "8169199660859977558");
     cbq('track', 'PageView');
     </script>
 <meta name="facebook-domain-verification" content="qowwrhpyni79cf2pms3zixyrxoh3b4" />
@@ -25,7 +25,7 @@
         <li><button id="addToWishlistButton" type="button">Add to Wishlist</button></li>
         <li><button id="addToCartButton" type="button">Add to Cart</button></li>
         <li><button id="checkoutButton" type="button">Check Out</button></li>
-        <li><button id="purchaseButton" type="button">Custom_Event_1</button></li>
+        <li><button id="purchaseButton" type="button">purchaseButton</button></li>
         <li><button id="subcribeButton" type="button">Subscribe</button></li>
         <li><button id="registrationButton" type="button">Registration</button></li>
     </ul>
@@ -42,7 +42,6 @@ document.getElementById('checkoutButton').addEventListener('click', function() {
 }, false);
 document.getElementById('purchaseButton').addEventListener('click', function() {
 cbq('track', 'Purchase', {
-currency: 'USD',
 });
 }, false);
 document.getElementById('subcribeButton').addEventListener('click', function() {
