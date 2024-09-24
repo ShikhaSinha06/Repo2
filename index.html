@@ -11,8 +11,8 @@
       t.src=v;s=h.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       "https://static.capignewdigo.sgqa1.cbinternal.com/"+'sdk/capig-events.js');
-    cbq('init', "837545009243151058");
-    cbq('loadConfig', "837545009243151058");
+    cbq('init', "139973312724504929");
+    cbq('loadConfig', "139973312724504929");
     cbq('track', 'PageView');
     </script>
 <meta name="facebook-domain-verification" content="qowwrhpyni79cf2pms3zixyrxoh3b4" />
@@ -28,6 +28,7 @@
         <li><button id="purchaseButton" type="button">purchase</button></li>
         <li><button id="subcribeButton" type="button">Subscribe</button></li>
         <li><button id="registrationButton" type="button">Registration</button></li>
+        <li><button id="unWantedEvent_button" type="button">unWantedEvent</button></li>
     </ul>
     </div>
 <script type="text/javascript">
@@ -51,6 +52,9 @@ document.getElementById('subcribeButton').addEventListener('click', function() {
 }, false);
 document.getElementById('registrationButton').addEventListener('click', function() {
   cbq('track', 'CompleteRegistration');
+}, false);
+    document.getElementById('unWantedEvent_button').addEventListener('click', function() {
+cbq('track', 'unWantedEvent');
 }, false);
 </script>
 </body>
